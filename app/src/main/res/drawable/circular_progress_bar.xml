@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <!--<bitmap android:src="@drawable/circle"-->
+            <!--android:gravity="center"></bitmap>-->
+        <layer-list>
+            <item>
+                <shape
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="3"
+                    android:useLevel="false"
+                    >
+                    <solid android:color="#119709" />
+                </shape>
+            </item>
+            <item>
+                <shape
+                    android:innerRadiusRatio="3"
+                    android:shape="ring"
+                    android:thickness="15dp"
+                    android:useLevel="false"
+                    >
+                    <solid android:color="#FFFF" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="vertical" android:gravity="bottom">
+            <shape
+                android:innerRadiusRatio="3"
+                android:shape="ring"
+                android:thickness="15dp"
+                android:useLevel="false"
+                >
+                <solid android:color="#ff0300" />
+            </shape>
+            <!--<bitmap android:src="@drawable/progress"></bitmap>-->
+        </clip>
+    </item>
+</layer-list>

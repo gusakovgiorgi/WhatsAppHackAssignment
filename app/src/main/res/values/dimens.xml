@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">60dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="main_text_size">24sp</dimen>
+    <dimen name="margin">30dp</dimen>
+    <dimen name="edittext_matgin_top">10dp</dimen>
+    <integer name="google_play_services_version">10</integer>
+</resources>
